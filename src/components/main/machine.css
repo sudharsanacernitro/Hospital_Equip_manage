@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: slategray;
+    background-image: url('/home/sudharsan/projects/academics_react/public/couple.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color:black;
+  }
+  
+.radio{
+  display: flex;
+
+}
+
+.radio input{
+  margin-left: 5%;
+}
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10%;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #submit{
+    background-color: black;
+  }

@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+   ;
+}
+
+table th, table td {
+    padding: 100px 15px;
+    border: 1px solid black;
+}
+
+table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: slategray;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
